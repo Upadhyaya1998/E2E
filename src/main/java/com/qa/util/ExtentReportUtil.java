@@ -15,6 +15,7 @@ import java.util.Map;
 public class ExtentReportUtil implements IReporter {
     private ExtentReports extent;
 
+    
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
                                String outputDirectory) {
         extent = new ExtentReports(outputDirectory + File.separator
