@@ -1,0 +1,10 @@
+{
+  "googleSearchBar": {
+    "type": "xpath",
+    "value": "//input[@title='Search']"
+  },
+  "gmailLink": {
+    "type": "partialLinkText",
+    "value": "Gmail"
+  }
+}
