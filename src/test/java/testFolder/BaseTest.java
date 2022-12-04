@@ -14,7 +14,7 @@ import java.net.URL;
 
 public class BaseTest extends BasePage {
 
-    public String gridURL = "http://192.168.0.154:4444/wd/hub";
+    public String gridURL = "http://34.121.74.164:4444/wd/hub";
 
     @BeforeMethod(groups = {"smoke","sanity","reg"})
     public void setUp() throws MalformedURLException {
