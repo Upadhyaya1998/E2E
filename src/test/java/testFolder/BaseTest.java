@@ -26,7 +26,7 @@ public class BaseTest extends BasePage {
         chromeOptions.addArguments("use-fake-ui-for-media-stream");
         chromeOptions.addArguments("auto-select-desktop-capture-source=Entire screen");
         chromeOptions.addArguments("auto-select-desktop-capture-source=Entire screen");
-        capabilities.setCapability("browser", "chrome");
+        capabilities.setCapability("browserName", "chrome");
         capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
         if(prop.getProperty("local").equals("Yes")){
             driver.set(new ChromeDriver());
