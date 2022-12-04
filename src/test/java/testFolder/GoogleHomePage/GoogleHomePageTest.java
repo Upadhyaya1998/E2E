@@ -10,7 +10,7 @@ public class GoogleHomePageTest extends BaseTest {
 
     GoogleHomePage googleHomePage = new GoogleHomePage();
 
-    @Test(groups = {"smoke"})
+    @Test(groups = {"smoke","reg"})
     public void testOne() throws InterruptedException {
         System.out.println("Smoke One");
         Thread.sleep(2000);

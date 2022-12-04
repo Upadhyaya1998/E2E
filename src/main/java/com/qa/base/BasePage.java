@@ -3,6 +3,7 @@ package com.qa.base;
 import com.qa.util.TestDataUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -14,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class BasePage {
 
     public static Properties prop;
-    protected static ThreadLocal<ChromeDriver> driver = new ThreadLocal<>();
+    protected static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
     /**
      * Constructor Initialization Of Configuration File
